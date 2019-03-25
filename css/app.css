@@ -76,7 +76,7 @@ img {
 
 header {
 	background: #0b172f;
-	background: url(../Images/pexels-photo-1229861.jpeg) no-repeat center center;
+	background: url(../Images/pexels-photo-1229861.jpeg) no-repeat center fixed;
 	display: flex;
 	height: 100vh;
 	color: white;
