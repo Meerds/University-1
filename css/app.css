@@ -94,7 +94,7 @@ header div#block {
 header h1 {
 	font-family: 'Gruppo', cursive;
 	color: white;
-	font-size: 15vmin;
+	font-size: 20vmin;
 	animation: 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both title-enter;
 }
 
