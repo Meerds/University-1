@@ -1,0 +1,271 @@
+/* CSS document */
+
+body {
+	background: #f4f4f4;
+	margin: 0 !important;
+	padding: 0 !important;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #0b172f;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #0b172f;
+}
+
+p {
+	font-family: arial;
+	font-size: 0.9em;
+	margin: 0px !important;
+}
+
+ul {
+	margin: 0 !important;
+	padding: 0 !important;
+	list-style-type: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.dropdown.menu {
+	font-family: 'Montserrat', sans-serif !important;
+	font-weight: bold;
+	padding: 25px 20px 0 20px !important;
+}
+
+.menu {
+	background: none;
+	position: absolute;
+	width: 100%;
+}
+
+.menu li {
+	margin-right: 20px;
+}
+.menu a {
+	padding: 5px 10px!important;
+	border-radius: 50px;
+	border: 2px solid white;
+}
+
+.menu a:link, a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	background: #0b172f;
+	text-decoration: none;
+	transform: scale(1.1);
+}
+
+.menu .active a {
+	background: #0b172f !important;
+}
+/* Formatação do website */
+
+/* H E A D E R */
+
+header {
+	background: #0b172f;
+	background: cover;
+	background: url(../Images/pexels-photo-1229861.jpeg) no-repeat center fixed;
+	display: flex;
+	height: 100vh;
+	color: white;
+}
+
+header div#block {
+	display: block;
+	text-align: center;
+	max-width: 1400px;
+	margin: auto;
+	padding: 30px;
+}
+
+header h1 {
+	font-family: 'Gruppo', cursive;
+	color: white;
+	font-size: 15vmin;
+	animation: 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both title-enter;
+}
+
+header h2 {
+	padding: 5px;
+	margin: 0;
+	font-size: 2em;
+	color: white;
+}
+
+header div#buttons {
+	margin-top: 30%;
+	animation: 1s .25s cubic-bezier(0.25, 0.46, 0.45, 0.94) both title-enter;
+	transition: .3s ease;
+}
+
+header div.single-button {
+	text-align: center;
+	border-radius: 100px;
+	border: 4px solid white;
+	margin: 10px 15px;
+}
+
+/*header button links*/
+header a:link, a:visited {
+	color: white;
+	text-align: center; 
+	text-decoration: none;
+}
+
+/*button hover*/
+header div.single-button:hover {
+	background: #0b172f;
+	transform: scale(0.95);
+}
+
+/* M A I N */
+
+main {
+	margin: 30px 10px 10px 10px;
+}
+
+main h2 {
+	font-size: 1.25em;
+	margin: 0;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #c6857d;
+}
+
+main #description {
+	font-size: 1.250em;
+	text-align: center;
+	padding: 0 10px;
+	margin-bottom: 20px;
+	transition: .3s ease;
+}
+
+.post {
+	background: #fff;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+	transition: .3s ease;
+}
+
+/* F O O T E R */
+
+footer#main-footer {
+	margin: 10px 0 0 0;
+	background: #0b172f;
+	padding: 5px;
+	font-size: 0.6em;
+	text-align: center;
+	color: #fff;
+}
+
+footer#main-footer ul li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+ /* Aside links */
+aside a:link, a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* Keyframes */
+
+@keyframes title-enter {
+	0% {
+	    opacity: 0;
+	    transform: translateY(30px);
+	}
+	100% {
+	    opacity: 1;
+	    transform: translateY(0);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries for Desktop */
+@media screen and (min-width: 1024px) {
+
+p {
+	font-size: 1.25em;
+}
+
+/* header */
+
+header div#buttons{
+	margin-top: 20vh;
+}
+
+header div.single-button {
+	transition: .3s ease;
+}
+
+header h2 {
+	font-size: 3em;
+	padding: 15px 5px;
+}
+
+/* main */
+
+main {
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 60px;
+}
+
+main h2 {
+	font-size: 1.75em;
+}
+
+main h1#description {
+	font-size: 2em;
+	margin-bottom: 50px;
+}
+
+main div.post {
+	min-height: 210px;
+	padding: 10px 20px;
+}
+
+main div.single-category {
+	margin: 10px;
+}
+/* footer */
+
+footer#main-footer {
+	font-size: 0.75em;
+	text-align: left;
+}
+}
