@@ -107,7 +107,6 @@ header h2 {
 header div#buttons {
 	margin-top: 30%;
 	animation: 1s .25s cubic-bezier(0.25, 0.46, 0.45, 0.94) both title-enter;
-	transition: .3s ease;
 }
 
 header div.single-button {
@@ -148,7 +147,6 @@ main #description {
 	text-align: center;
 	padding: 0 10px;
 	margin-bottom: 20px;
-	transition: .3s ease;
 }
 
 .post {
@@ -156,7 +154,6 @@ main #description {
 	border-radius: 5px;
 	padding: 10px;
 	margin: 10px;
-	transition: .3s ease;
 }
 
 /* F O O T E R */
@@ -219,6 +216,10 @@ aside a:link, a:visited {
 
 p {
 	font-size: 1.25em;
+}
+
+.menu a {
+	transition: .3s ease;
 }
 
 /* header */

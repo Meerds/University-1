@@ -135,7 +135,6 @@ main ul li div.single-category {
 	margin: 2px;
 	font-weight: bold;
 	color: #0b172f;
-	transition: .3s ease;
 }
 
 main ul li div.single-category:hover {
@@ -333,6 +332,10 @@ footer#main-footer {
 	padding: 25px 20px 0 20px !important;
 }
 
+.menu a {
+	transition: .3s ease;
+}
+
 /* header */
 
 header {
@@ -357,6 +360,7 @@ main div#categories {
 
 main ul li div.single-category {
 	font-size: 1.75em;
+	transition: .3s ease;
 }
 
 }
