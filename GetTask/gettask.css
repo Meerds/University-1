@@ -265,7 +265,7 @@ header {
 /* main */
 
 main {
-	padding: 20px 30px;
+	padding: 10px 5px;
 	max-width: 800px;
 	margin: 0 auto 40px auto;
 }
@@ -297,6 +297,11 @@ main ul li div.single-category:hover {
 
 main div.singular-task {
 	max-width: 330px;
+	padding: 10px;
+}
+
+main div.singular-task-wrapper {
+	max-width: 340px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -344,9 +349,8 @@ header {
 }
 
 /* main */
-
 main {
-	width: auto;
+	padding: 20px 30px;
 	max-width: 1300px;
 	margin: 0 auto;
 }
