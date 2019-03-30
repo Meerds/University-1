@@ -176,6 +176,7 @@ main div#submit div.button:hover {
 main div#submit div.button h2 {
 	color: white;
 	text-align: center;
+	margin: 5px;
 }
 
 /* F O O T E R */
