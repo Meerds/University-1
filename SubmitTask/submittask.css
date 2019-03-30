@@ -63,7 +63,8 @@ ul {
 }
 
 .menu li {
-	margin-right: 10px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .menu a {
@@ -84,6 +85,18 @@ ul {
 	transition: .3s ease;
 }
 
+label {
+	color: #0b172f;
+	font-weight: bold;
+}
+
+input, textarea, select {
+	border: 1px solid #c6857d !important;
+}
+
+textarea {
+	height: 100px;
+}
 /* Formatação do website */
 
 /* H E A D E R */
@@ -117,78 +130,53 @@ main h2 {
 	transition: .3s ease;
 }
 
-/* categories */
-main ul li {
-	text-align: center;
-	font-size: 0.5em;
-}
+/* labels */
 
-main div#categories {
-	top: 0;
+div.labels {
 	margin: 10px;
-	font-size: 1.5em;
 }
 
-main ul li div.single-category {
+label.button {
+	background: none;
+	color: #0b172f;
+	border-radius: 100px;
+	border: 2px solid #c6857d;
+	padding: 10px;
+	margin: 2px;
+	margin-top: 10px;
+	width: 200px;
+	transition: .3s ease;
+	font-weight: bold;
+}
+
+label .button:hover {
+	background: #0b172f;
+}
+
+main div#submit {
+	margin-top: 10px;
+}
+
+main div#submit div.button {
+	background: #0b172f;
+	width: 100%;
+	font-size: 1.5em;
 	border-radius: 100px;
 	border: 2px solid #c6857d;
 	padding: 2px;
 	margin: 2px;
 	font-weight: bold;
-	color: #0b172f;
-}
-
-main ul li div.single-category:hover {
-	background: #0b172f;
-	color: white;
-}
-
-/* tasks */
-main div.task-section {
-	background: #071022;
-}
-
-main section.task {
-	border-radius: 5px;
-    box-shadow: 0 0.25em 0.6em -0.15em rgba(0,0,0,0.15);
-}
-
-main div.singular-task {
-	background: #fff;
-	border-radius: 5px;
-	padding: 10px;
-	margin: 5px;
 	transition: .3s ease;
 }
 
-main section div.task-image {
-	background: #f4f4f4;
-	border-top-left-radius: 5px;
-	border-bottom-left-radius: 5px;
-	overflow: hidden;
-	min-height: 80px;
-	object-position: center;
+main div#submit div.button:hover {
+	transform: scale(1.02);
 }
 
-main section h3 {
-	border-bottom: solid 1px #c6857d;
-	font-size: 1em;
-	padding-bottom: 5px;
-	margin: 0;
+main div#submit div.button h2 {
+	color: white;
+	text-align: center;
 }
-
-main section div.task-info-no-title {
-	padding-top: 10px;
-}
-
-main div#task-description {
-	margin-top: 10px;
-}
-
-main div#vertical-task-info {
-	margin-left: 5px;
-}
-
 /* F O O T E R */
 
 footer#main-footer {
@@ -198,6 +186,9 @@ footer#main-footer {
 	font-size: 0.6em;
 	text-align: center;
 	color: #fff;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 }
 
 footer#main-footer ul li {
@@ -251,6 +242,7 @@ p {
 }
 
 .menu li {
+	margin: 0;
 	margin-right: 20px;
 }
 
@@ -275,49 +267,17 @@ main h2 {
 	font-size: 1.5em;
 }
 
-main div#categories {
-	max-width: 800px;
-	padding: 0 80px;
-	margin-left: auto;
-	margin-right: auto;
-}
+/* labels */
 
-main div#categories:last-child {
-	border-bottom-right-radius: 0;
-	border-top-right-radius: 0;
-}
-
-main ul li div.single-category {
-	margin: 5px;
-	font-size: 1.5em;
-}
-
-main ul li div.single-category:hover {
-	transform: scale(0.98);
-}
-
-main div.singular-task {
-	padding: 10px;
-}
-
-main div.singular-task-wrapper {
-	max-width: 340px;
+div.labels {
+	max-width: 600px;
 	margin-right: auto;
 	margin-left: auto;
+	padding: 0 20px;
 }
 
-main section h3 {
-	font-size: 1em;
-}
-
-main section div.task-image {
-	min-height: 100px;
-	min-width: 100px;
-}
-
-main div#vertical-task-info {
-	margin-left: 10px;
-	font-size: 0.9em;
+main div#submit {
+	margin-top: 60px;
 }
 
 /* footer */
@@ -355,16 +315,11 @@ main {
 	margin: 0 auto;
 }
 
-main div#categories {
-	max-width: 1100px;
-	padding: 0 80px;
-	margin-left: auto;
+div.labels {
+	max-width: 600px;
 	margin-right: auto;
-}
-
-main ul li div.single-category {
-	font-size: 1.75em;
-	transition: .3s ease;
+	margin-left: 0;
+	padding: 0 20px;
 }
 
 }
