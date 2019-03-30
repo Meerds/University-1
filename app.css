@@ -165,9 +165,6 @@ footer#main-footer {
 	font-size: 0.6em;
 	text-align: center;
 	color: #fff;
-	position: static;
-	bottom: 0;
-	width: 100%;
 }
 
 footer#main-footer ul li {
