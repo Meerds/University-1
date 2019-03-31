@@ -48,8 +48,10 @@ img {
 }
 
 .menu li {
-	margin-right: 20px;
+	margin-right: auto;
+	margin-left: auto;
 }
+
 .menu a {
 	padding: 5px 10px!important;
 	border-radius: 50px;
@@ -159,6 +161,7 @@ main #description {
 /* F O O T E R */
 
 footer#main-footer {
+	height: 30px;
 	margin: 10px 0 0 0;
 	background: #0b172f;
 	padding: 5px;
@@ -212,14 +215,28 @@ aside a:link, a:visited {
 
 
 /* Media Queries for Desktop */
+@media screen and (min-width: 640px) {
+
+.menu li {
+	margin: 0;
+	margin-right: 20px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 1024px) {
 
 p {
 	font-size: 1.25em;
-}
-
-.menu a {
-	transition: .3s ease;
 }
 
 /* header */
@@ -242,7 +259,7 @@ header h2 {
 main {
 	max-width: 1400px;
 	margin: 0 auto;
-	padding: 60px;
+	padding: 60px 60px 50px 60px;
 }
 
 main h2 {

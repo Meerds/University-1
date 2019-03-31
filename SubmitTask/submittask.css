@@ -10,6 +10,10 @@ body {
 	height: 100% !important;
 }
 
+main {
+	min-height: calc(100vh - 80px - 40px);
+}
+
 h1, h2, h3, h4, h5 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
@@ -92,6 +96,7 @@ label {
 
 input, textarea, select {
 	border: 1px solid #c6857d !important;
+	border-radius: 5px !important;
 }
 
 textarea {
@@ -183,6 +188,7 @@ main div#submit div.button h2 {
 /* F O O T E R */
 
 footer#main-footer {
+	height: 30px;
 	margin: 10px 0 0 0;
 	background: #0b172f;
 	padding: 5px;
@@ -289,17 +295,16 @@ footer#main-footer {
 
 }
 
-@media screen and (min-width: 1024px) {
-	
-.dropdown.menu {
-	font-family: 'Montserrat', sans-serif !important;
-	font-weight: bold;
-	padding: 25px 20px 0 20px !important;
-}
 
-.menu a {
-	transition: .3s ease;
-}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px) {
 
 /* header */
 
