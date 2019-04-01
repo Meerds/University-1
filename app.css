@@ -67,6 +67,7 @@ img {
 	background: #0b172f;
 	text-decoration: none;
 	transform: scale(1.1);
+	transition: .3s ease;
 }
 
 .menu .active a {
