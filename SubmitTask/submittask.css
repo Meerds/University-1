@@ -143,7 +143,7 @@ div.labels {
 }
 
 label.button {
-	background: none;
+	background: white;
 	color: #0b172f;
 	border-radius: 100px;
 	border: 2px solid #c6857d;
@@ -156,7 +156,9 @@ label.button {
 }
 
 label .button:hover {
-	background: #0b172f;
+	background: white;
+	color: #0b172f;
+	transform: scale(1.05);
 }
 
 main div#submit {
