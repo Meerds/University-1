@@ -224,6 +224,11 @@ aside a:link, a:visited {
 	margin-right: 20px;
 }
 
+header div.single-button {
+	transition: .3s ease;
+	min-width: 225px;
+}
+
 }
 
 
@@ -249,6 +254,7 @@ header div#buttons{
 
 header div.single-button {
 	transition: .3s ease;
+	min-width: 350px;
 }
 
 header h2 {
