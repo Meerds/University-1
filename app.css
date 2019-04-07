@@ -90,7 +90,7 @@ header div#block {
 	text-align: center;
 	max-width: 1400px;
 	margin: auto;
-	padding: 30px;
+	padding: 60px 30px 30px 30px;
 }
 
 header h1 {
@@ -108,7 +108,7 @@ header h2 {
 }
 
 header div#buttons {
-	margin-top: 30%;
+	margin-top: 20vh;
 	animation: 1s .25s cubic-bezier(0.25, 0.46, 0.45, 0.94) both title-enter;
 }
 
@@ -248,12 +248,7 @@ p {
 
 /* header */
 
-header div#buttons{
-	margin-top: 20vh;
-}
-
 header div.single-button {
-	transition: .3s ease;
 	min-width: 350px;
 }
 
