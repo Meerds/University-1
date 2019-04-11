@@ -39,6 +39,7 @@ img {
 	font-family: 'Montserrat', sans-serif !important;
 	font-weight: bold;
 	padding: 25px 20px 0 20px !important;
+	transition: .3s ease;
 }
 
 .menu {
