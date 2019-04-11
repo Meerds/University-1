@@ -57,7 +57,6 @@ ul {
 	font-family: 'Montserrat', sans-serif !important;
 	font-weight: bold;
 	padding: 40px 20px 0 20px !important;
-	transition: .3s ease;
 }
 
 .menu {
@@ -75,6 +74,7 @@ ul {
 	padding: 5px 10px !important;
 	border-radius: 50px;
 	border: 2px solid white;
+	transition: .3s ease;
 }
 
 .menu a:link, a:visited {
@@ -133,6 +133,10 @@ main {
 
 main h2 {
 	margin: 0 10px;
+	transition: .3s ease;
+}
+
+main #submit-button h2 {
 	transition: .3s ease;
 }
 
